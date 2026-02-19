@@ -12,7 +12,7 @@ import pandas as pd
 import joblib
 
 # Load trained model and encoders
-model = joblib.load("salary_prediction.pkl")
+model = joblib.load("vehicle_fuel_efficiency_model.pkl")
 encoder = joblib.load("label_encoder.pkl")
 
 st.title("Vehicle Fuel Efficiency Prediction App")
